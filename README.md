@@ -45,10 +45,12 @@
   
   + ==== sound on/off ====
   > soundMaster -on
+  
   > soundMaster -off
   
   + ==== sound low/high ====
   > soundMaster -l 50%
+  
   > soundMaster -h 20%
   
 ### contribution :
