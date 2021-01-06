@@ -33,7 +33,7 @@
   > cd ~ && gedit .profile
   
   4 now look at line contain PATH="....." & added soundMaster.bash path to PATH="...." in last 
-  > # example !
+  > example !
   > PATH="$HOME/bin:$HOME/.local/bin:$HOME/bin/soundMaster.bash"
   
   5 now script is ready but we need to make a simple alias as last step
