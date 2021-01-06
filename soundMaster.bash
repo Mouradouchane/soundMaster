@@ -6,35 +6,33 @@ scriptVersion=1
 
 # help message for -h
 helpMessage="soundMaster Tool v$scriptVersion\n
+--help	: help message\n
+-v	: tool version : v$scriptVersion\n
 -on	: for make Master on  'unmute'\n
 -off	: for make Master off 'mute'\n
--p	: plus   sound 'like : soundMaster -p 50%'\n
--m	: muinse sound 'like : soundMaster -m 40%'\n
--v	: tool version : v$scriptVersion\n
--h	: help message\n
+-h	: high sound 'like : soundMaster -p 50%'\n
+-l	: low  sound 'like : soundMaster -m 40%'\n
 "
 
-# all commands 
-pls="-p"
-mns="-m"
-hlp="-h"
-
-#version
-vs="-v"
-
+# ==== all commands ===============
+# low/high
+high="-"
+low="-m"
 # on/off commands
 on="-on"
 off="-off"
+#help="--help"
+vs="-v"
 
 
 # start checking parameter user argument must be in param =>$1
-if   [[ $pls = $1 ]]
+if   [[ $high = $1 ]]
 then
 	#sleep 0.2
 	amixer -D pulse set Master $2+
 	echo $scriptName "volume +" $2
 
-elif [[ $mns = $1 ]]
+elif [[ $low = $1 ]]
 then
 	#sleep 0.2
 	amixer -D pulse set Master $2-
@@ -62,7 +60,6 @@ else
 	echo -e $helpMessage
 	
 fi
-
 
 
 
