@@ -17,29 +17,29 @@
   > git clone https://github.com/Mouradouchane/soundMaster.git
 
 #### installation & direct usage :
-* note : you can use this script directly but you need to be in same path for execute it .
+  note : you can use this script directly but you need to be in same path for execute it .
 
-##### * direct usage example :
+##### direct usage example :
   > ./soundMaster -h
   
-##### * installation :
-* if you want to install script for access it from anywhere in system follow this easy steps :
-  .1 make folder called bin in home folder 
+##### installation :
+  if you want to install script for access it from anywhere in system follow this easy steps :
+  1 make folder called bin in home folder 
   > cd ~ && mkdir bin
   
-  .2 copy or move soundMaster.bash to this bin folder "use your way for copy/move"
+  2 copy or move soundMaster.bash to this bin folder "use your way for copy/move"
   
-  .3 go back to home & open .profile file with any text editor like gedit
+  3 go back to home & open .profile file with any text editor like gedit
   > cd ~ && gedit .profile
   
-  .4 now look at line contain PATH="....." & added soundMaster.bash path to PATH="...." in last 
+  4 now look at line contain PATH="....." & added soundMaster.bash path to PATH="...." in last 
   > # example !
   > PATH="$HOME/bin:$HOME/.local/bin:$HOME/bin/soundMaster.bash"
   
-  .5 now script is ready but we need to make a simple alias as last step
+  5 now script is ready but we need to make a simple alias as last step
   > alias soundMaster=soundMaster.bash
   
-##### * usage :
+##### usage :
   > ==== help message ====
   > soundMaster -h 
   
@@ -51,6 +51,5 @@
   > soundMaster -l 50%
   > soundMaster -h 20%
   
-#### * contribution :
-* if you want to do some enhancement , you're welcome .
-  
+#### contribution :
+  if you want to do some enhancement , you're welcome .
