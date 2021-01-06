@@ -16,8 +16,8 @@ helpMessage="soundMaster Tool v$scriptVersion\n
 
 # ==== all commands ===============
 # low/high
-high="-"
-low="-m"
+high="-h"
+low="-l"
 # on/off commands
 on="-on"
 off="-off"
