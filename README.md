@@ -1,31 +1,38 @@
-## soundMaster
+### soundMaster
 
 =========================================================================================
-### about :
+#### about :
 =========================================================================================
 * simple bash file contain simple commands for dealing with sound manager "[Amixer](https://www.geeksforgeeks.org/amixer-command-in-linux-with-examples/)" .
 
 =========================================================================================
-### note :
+#### note :
 =========================================================================================
 * if you do not have amixer in your linux system, this script file does not work !
 * so , make sure to have a update version of amixer !
 
 =========================================================================================
-### what this script can do :
+#### what this script can do :
 =========================================================================================
 * make sound on/off
 * make sound low/high 
 
 =========================================================================================
-### installation & direct usage :
+#### download :
+=========================================================================================
+  .1 you can download zip directly from green button in repo or you can clone it using 
+     terminal .
+  > git clone 
+
+=========================================================================================
+#### installation & direct usage :
 =========================================================================================
 * note : you can use this script directly but you need to be in same path for execute it .
 
-#### * direct usage example :
+##### * direct usage example :
   > ./soundMaster -h
   
-#### * installation :
+##### * installation :
 * if you want to install script for access it from anywhere in system follow this easy steps :
   .1 make folder called bin in home folder 
   > cd ~ && mkdir bin
@@ -43,7 +50,7 @@
   > alias soundMaster=soundMaster.bash
   
 =========================================================================================
-#### * usage :
+##### * usage :
 =========================================================================================
   > ==== help message ====
   > soundMaster -h 
@@ -57,7 +64,7 @@
   > soundMaster -h 20%
   
 ==========================================================================================
-### contribution :
+#### * contribution :
 ==========================================================================================
 * if you want to do some enhancement , you're welcome .
   
