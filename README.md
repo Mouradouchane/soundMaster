@@ -40,14 +40,14 @@
   > alias soundMaster=soundMaster.bash
   
 #### usage :
-  > ==== help message ====
+  + ==== help message ====
   > soundMaster -h 
   
-  > ==== sound on/off ====
+  + ==== sound on/off ====
   > soundMaster -on
   > soundMaster -off
   
-  > ==== sound low/high ====
+  + ==== sound low/high ====
   > soundMaster -l 50%
   > soundMaster -h 20%
   
