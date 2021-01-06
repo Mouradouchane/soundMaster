@@ -1,32 +1,22 @@
 ### soundMaster
 
-=========================================================================
 #### about :
-=========================================================================
 * simple bash file contain simple commands for dealing with sound manager "[Amixer](https://www.geeksforgeeks.org/amixer-command-in-linux-with-examples/)" .
 
-=========================================================================
 #### note :
-=========================================================================
 * if you do not have amixer in your linux system, this script file does not work !
 * so , make sure to have a update version of amixer !
 
-=========================================================================
 #### what this script can do :
-=========================================================================
 * make sound on/off
 * make sound low/high 
 
-=========================================================================
 #### download :
-=========================================================================
   .1 you can download zip directly from green button in repo or you can clone it using 
      terminal .
   > git clone https://github.com/Mouradouchane/soundMaster.git
 
-=========================================================================
 #### installation & direct usage :
-=========================================================================
 * note : you can use this script directly but you need to be in same path for execute it .
 
 ##### * direct usage example :
@@ -49,9 +39,7 @@
   .5 now script is ready but we need to make a simple alias as last step
   > alias soundMaster=soundMaster.bash
   
-=========================================================================
 ##### * usage :
-=========================================================================
   > ==== help message ====
   > soundMaster -h 
   
@@ -63,8 +51,6 @@
   > soundMaster -l 50%
   > soundMaster -h 20%
   
-==========================================================================
 #### * contribution :
-==========================================================================
 * if you want to do some enhancement , you're welcome .
   
